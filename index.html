@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Welcome to Food -Home</title>
+    <!-- Cdn Style  -->
+<link rel="stylesheet" href="asset/style/master.css">
+   <!-- Cdn bootstrap -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+   <!-- CDn  , icon  -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+ <!-- Link Swiper's CSS -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+<!-- livk font  -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main >
+      <!-- start header   -->
+    <header class="row   justify-content-center">
+      <!-- nav  -->
+      <nav class="navbar  fixed-top   ">
+        <div class="container-fluid ">
+          <div class=" d-md-none" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"  >
+            <i class="bi bi-list text-white display-3   "></i>
+          </div>
+          <div class="offcanvas offcanvas-start  text-bg-light" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <div type="button" class="btn-close " data-bs-dismiss="offcanvas" aria-label="Close"></div>
+            </div>
+            <div class="offcanvas-body d-md-none bg-body mb-5">
+              <form class="d-flex px-0" role="search">
+                <input class="form-control  btn btn-outline-dark  mb-2  bg-body rounded-5" type="search" placeholder="Search" aria-label="Search">
+              </form>
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3   text-center nav33 ">
+                <li class="nav-item border-bottom">
+                  <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+                </li>
+                <li class="nav-item border-bottom">
+                  <a class="nav-link active" aria-current="page" href="#STORY">STORY </a>
+                </li>
+                <li class="nav-item border-bottom">
+                  <a class="nav-link active" aria-current="page" href="#MENU">MENU</a>
+                </li>
+                <li class="nav-item border-bottom">
+                  <a class="nav-link active" aria-current="page" href="#RESERVATION ">RESERVATION
+                </a>
+                </li>
+                <li class="nav-item border-bottom">
+                  <a class="nav-link active" aria-current="page" href="#OFFERS"> 
+                    OFFERS</a>
+                </li>
+                <li class="nav-item border-bottom">
+                  <a class="nav-link active" aria-current="page" href="#NEWS">NEWS </a>
+                </li>
+                <li class="nav-item border-bottom">
+                  <a class="nav-link active" aria-current="page" href="#PHOTO ">PHOTO </a>
+                </li>
+                <li class="nav-item border-bottom">
+                  <a class="nav-link active" aria-current="page" href="#CONTACT">CONTACT</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <section class=" container  d-none d-md-flex col-md-12 mt-1 align-items-md-center  nav1 mx-auto  px-0  ">
+            <ul class=" text-white  row  flex-grow-1    col-md-5   mt-4  ">
+              <li class="nav-item col ">
+                <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+              </li>
+              <li class="nav-item col ">
+                <a class="nav-link active" aria-current="page" href="#STORY">STORY </a>
+              </li>
+              <li class="nav-item col ">
+                <a class="nav-link active" aria-current="page" href="#MENU">MENU</a>
+              </li>
+              <li class="nav-item col ">
+                <a class="nav-link active" aria-current="page" href="#RESERVATION ">RESERVATION
+              </a>
+              </li>
+               </ul>
+              <div class="nav-item    col-md-2     mx-md-auto   ">
+                <figure class=" col-md-12 mb-md-4 mx-md-0 px-5 pe-1 pe-lg-4 ">
+                  <img src="asset/img/logo.png" class="w-100 " alt="">
+                </figure>
+              </div>
+              <ul  class=" text-white  row flex-grow-1 col-md-5  mt-4   ">
+                <li class="nav-item col   ">
+                  <a class="nav-link active" aria-current="page" href="#OFFERS"> 
+                   OFFERS</a>
+                </li>
+                <li class="nav-item col   ">
+                  <a class="nav-link active" aria-current="page" href="#NEWS">NEWS </a>
+                </li>
+                <li class="nav-item col   ">
+                  <a class="nav-link active" aria-current="page" href="#PHOTO ">PHOTO </a>
+                </li>
+                <li class="nav-item col  ">
+                  <a class="nav-link active" aria-current="page" href="#CONTACT">CONTACT</a>
+                </li>
+              </ul>
+          </section>
+         
+        </div>
+      </nav>
+      <!-- nav  -->
+     <!-- < !-- end header 7 home  --> 
+    </header>
+    <!-- slider start -->
+    <div class="swiper mySwiper  container-fluid  " id="Home">
+      <div class="swiper-wrapper mt-2">
+        <div class="swiper-slide  position-relative  d-flex justify-content-center 
+        align-items-center ">
+          <figure class="title " data-swiper-parallax="-300"><img src="asset/img/slide-1.jpg" alt=""></figure>
+          <h1 class="subtitle  position-absolute w-50  text-center   " data-swiper-parallax="-300">
+            RESTAURANT& EVENTS   IN THE BORDERS
+          </h1> <span></span>
+          <div class="text position-absolute text-center      " data-swiper-parallax="-200">
+            <p>
+              Delicious, beverages and great-tasting food. <br>
+              The secret to making life better.
+            </p>
+          </div>
+        </div>
+        <div class="swiper-slide  position-relative  d-flex justify-content-center 
+        align-items-center ">
+          <figure class="title  " data-swiper-parallax="-300"><img src="asset/img/slide-2.jpg" alt=""></figure>
+          <h1 class="subtitle  position-absolute w-50  text-center    " data-swiper-parallax="-300">
+            GATHER WITH FAMILY & GREAT FOOD
+          </h1> <span></span>
+          <div class="text position-absolute text-center    " data-swiper-parallax="-200">
+            <p>
+              Delicious, beverages and great-tasting food. <br>
+              The secret to making life better.
+            </p>
+          </div>
+        </div>
+        <div class="swiper-slide  position-relative  d-flex justify-content-center 
+        align-items-center ">
+          <figure class="title  " data-swiper-parallax="-300"><img src="asset/img/slide-3.jpg" alt=""></figure>
+          <h1 class="subtitle  position-absolute w-50  text-center    " data-swiper-parallax="-300">
+            LOCALLY SOURCED PRODUCE
+          </h1> <span></span>
+          <div class="text position-absolute text-center      " data-swiper-parallax="-200">
+            <p>
+              Delicious, beverages and great-tasting food. <br>
+              The secret to making life better.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination mb-5"></div>
+    </div>
+    <!-- end slider  -->
+
+ 
+        
+        <!-- start sec2  -->
+
+       
+        <section class="  container-fluid    " id="MENU">
+          <div class=" gallery h-100 row  ">
+            <div class=" col-12    d-flex   mx-0 px-0 w-100  menu-sfaresh">
+              <figure class="col-12 col-md-4 card my-0  d-flex justify-content-center align-items-center   ">
+                <img src="asset/img/7.jpg"  alt="">
+                <figcaption class="  mb-4 row  col-12  col-md-10 col-lg-9  text-white position-absolute   text-center justify-content-center  align-items-center">
+                  <i class='bx bxs-dish bx-tada my-3' ></i>
+                  <h3 class="  my-2 ">FOOD</h3>
+                  <button class="btn btn-outline-light  my-2   ">MORE</button>
+                </figcaption>
+              </figure>
+              <figure class="col-12 col-md-4 card my-0   d-flex justify-content-center align-items-center ">
+                <img src="asset/img/7 (1).jpg"  alt="">
+                <figcaption class=" mb-4 row  col-12  col-md-10 col-lg-9  text-white position-absolute   text-center justify-content-center  align-items-center">
+                  <i class='bx bxs-cake bx-tada my-3' ></i>
+                  <h3 class="  my-2  ">DESERT</h3>
+                  <button class="btn btn-outline-light my-2   ">MORE</button>
+                </figcaption>
+              </figure>
+              <figure  class="col-12 col-md-4 card  d-flex justify-content-center align-items-center">
+                <img src="asset/img/7 (2).jpg" alt="">
+                <figcaption class=" mb-4 row  col-12  col-md-10 col-lg-9  text-white position-absolute   text-center justify-content-center  align-items-center">
+                  <i class='bx bx-drink bx-tada my-3' ></i>
+                  <h3 class=" my-2 ">DRINKS</h3>
+                  <button class="btn btn-outline-light  my-2    ">MORE</button>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </section>
+      
+             <!-- ens sec 2 -->
+        <!-- start sec3  -->
+
+      
+        <section class="  container-fluid  mt-5   h-100   " id="RESERVATION">
+          <div class=" About row   col-12  mx-0 py-5 h-100 justify-content-center  my-0">
+            <article class="row text-center  col-12 col-md-9 align-items-md-center
+            justify-content-center  ">
+              
+              <span class="col-12 cf my-0 text-center ">
+              <i class='bx bxs-coffee-bean  text-dark-emphasis   ' ></i>
+              <i class='bx bxs-coffee-bean  text-dark-emphasis ' ></i>
+              </span>
+              <h1 class="col-12   text-dark-emphasis ">FEW  WORDS  ABOUT <strong class="text-dark">US</strong></h1>
+              <span class="b col-1 border-black border-bottom  "></span>
+              <p class="h6  col-12 mb-2 text-dark-emphasis ">A charming neighbourhood restaurant and bar, located in the heart of the city;<br> a true gateway to gourmet farm-to-table dining, inspired by seasonal produce and <br> the province's local suppliers.</p>
+
+            </article>
+          </div>
+        </section>
+        <!-- End sec3  -->
+        <!-- start sec 2  -->
+
+        <div class=" swiper slider container-fluid container-xxl mt-md-3 mt-0  " id="OFFERS">
+          <section class="swiper-wrapper  d-flex align-items-center   "> 
+            <figure class="swiper-slide d-flex flex-wrap"><img src="asset/img/offer-1.jpg" alt="">
+            <figcaption  class="row text-center  col-12 ">
+              <h6 class="">20 DECEMBER 2015</h6>
+              <div class="bn"></div>
+              <h2>WINE TESTING DAY <br>
+                 1AM - 2AM</h2>
+            </figcaption>
+            </figure>
+            <figure class="swiper-slide d-flex flex-wrap"><img src="asset/img/offer-2.jpg" alt="">
+            <figcaption class="row  text-center  col-12">
+              <h6>21 DECEMBER 2015</h6>
+              <div class="bn"></div>
+              <h2>COOKING CLASS 
+                <br> FRIDAY</h2>
+            </figcaption>
+            </figure>
+            <figure class="swiper-slide  d-flex flex-wrap"><img src="asset/img/offer-3.jpg" alt="">
+            <figcaption class="row text-center   col-12" >
+              <h6>18 DECEMBER 2015</h6>
+              <div class="bn"></div>
+              <h2>DESERT DAY<br> “SWEET STRAWBERRY”</h2>
+            </figcaption>
+            </figure>
+            <figure class="swiper-slide  d-flex flex-wrap"><img src="asset/img/offer-4.jpg" alt="">
+            <figcaption class="row  text-center  col-12">
+              <h6>22 DECEMBER 2015</h6>
+              <div class="bn"></div>
+              <h2>“HAPPY HOUR”<br> THROUGH 1PM - 2PM</h2>
+            </figcaption>
+            </figure>
+            <figure class="swiper-slide d-flex flex-wrap "><img src="asset/img/offer-5.jpg" alt="">
+            <figcaption class="row  text-center   col-12">
+              <h6>24 DECEMBER 2015</h6>
+              <div class="bn"></div>
+              <h2>CAESAR SPECIAL<br> HOUR</h2>
+            </figcaption>
+            </figure>
+            <figure class="swiper-slide  d-flex flex-wrap"><img src="asset/img/offer-6.jpg" alt="">
+            <figcaption class="row  text-center   col-12">
+              <h6>25 DECEMBER 2015</h6>
+              <div class="bn"></div>
+              <h2>BREAKFAST MENU<br> ONLY $17.50</h2>
+            </figcaption>
+            </figure>
+            <figure class="swiper-slide d-flex flex-wrap"><img src="asset/img/offer-7.jpg" alt="">
+            <figcaption class="row text-center   col-12">
+              <h6>23 DECEMBER 2015</h6>
+              <div class="bn"></div>
+              <h2>DESERT BAKING COURSE<br> 10AM - 11AM</h2>
+            </figcaption>
+            </figure>
+          </section>
+        </div>
+        <!-- End sec3  -->
+        <!-- start sec 4  -->
+        <section class="  container-fluid  container-xxl " id="NEWS">
+          <div class=" row   col-12  mx-0  justify-content-center  ">
+            <article class="row text-center  col-12 col-md-9 align-items-center
+            justify-content-center  ">
+              <h5 class="col-12   text-dark-emphasis ">-Carmelo-</h5>
+              <h1 class="col-12  my-3  text-dark-emphasis " >HEAD  CHEF</h1>
+              <figure class="d-flex flex-wrap justify-content-center my-5 mx-auto px-0   ">
+                <img src="asset/img/chef-of-the-month.jpg" class="col-12 col-md-9 px-0  " alt="">
+                <p class="h6  col-12 col-md-9   col-md-12 text-dark-emphasis   ">Carmelo likes to use high quality, fresh ingredients in his cooking. He has a passion for delivering the highest quality possible to his diners. Carmelo has developed an exciting menu of upscale bistro food. He has a true appreciation of fresh, regional ingredients and works well with the height of the season..</p>
+              </figure>
+            </article>
+          </div>
+        </section>
+       <!-- End sec 4  -->
+       <!-- start sec5  -->
+       <div class="grid  mt-4" id="PHOTO">
+          <div class="parent d-grid   ">
+            <div class="div1"><img src="asset/img/image-1.jpg" alt=""> </div>
+            <div class="div2"><img src="asset/img/image-2.jpg" alt=""> </div>
+            <div class="div3"><img src="asset/img/image-3.jpg" alt=""> </div>
+            <div class="div4 row col-12 mx-0 justify-content-center
+            align-items-center text-white text-center bg-dark ">
+              <h6 class="mt-xl-5">-Some moments-</h6>
+              <h3 class="h4 my-0   ">FROM OUR PUB</h3>
+              <span class=" mb-0 mb-xl-4  col-8 col-sm-7 col-md-5   btn btn-outline-secondary rounded">ALL PHOTO</span>
+            </div>
+            <div class="div5"><img src="asset/img/image-4.jpg" alt=""> </div>
+            <div class="div6"><img src="asset/img/image-5.jpg" alt=""> </div>
+            <div class="div7"><img src="asset/img/image-6.jpg" alt=""> </div>
+            </div>
+       </div>
+       <!-- end sec 5 -->
+      <!-- start sec5  -->
+       <section class=" container-fluid d-none d-lg-flex     mx-0 contP ">
+  
+        
+           
+
+        <!-- Swiper -->
+  <div class="swiper cont container-fluid     my-3  mx-0  ">
+    <div class="div">
+        <h6 class="text-center  text-secondary  ">-Warm Words- </h6>
+        <h2 class="text-center text-secondary    ">FROM OUR CLIENTS</h2>
+      </div>
+    <div class="swiper-wrapper  my-5">
+      
+      <figure class="swiper-slide   d-flex flex-wrap
+       justify-content-center  text-center   ">
+        <div class="img1 col-12   ">
+          <img src="asset/img/avatar-1.jpg" class="my-0" alt=""> <h6>Bryan Nylson</h6>
+        </div>
+        <p >When arriving in town, this is one of the first stops for something interesting and amazing to eat. 
+           The menu has choices for everyone and it is the kind of place you want to come back to. I love the fish and chips there as well.</p>
+      </figure>
+      <figure class="swiper-slide d-flex flex-wrap text-center justify-content-center">
+        <div class="img1 col-12  ">
+        <img src="asset/img/avatar-2.jpg" class="my-0" alt=""><h6>Thomas Jefferson</h6>
+      </div>
+        <p>I wanted to write to say thank you for an amazing experience and delicious dinner tonight. You made my baby daughter and I feel very welcome! I look forward to coming back. Jenny was so wonderful with my daughter too and had her laughing most of the night. Best regards, Allison</p>
+      </figure>
+      <figure class="swiper-slide d-flex flex-wrap  text-center justify-content-center">
+        <div class="img1 col-12  ">
+        <img src="asset/img/avatar-3.jpg" class="my-0" alt=""><h6>Lisa Petterson</h6>
+      </div>
+        <p>I just wanted to thank you for providing a great birthday celebration for me. Your staff did an excellent job and the food was superb. Everyone was impressed. I will recommend your expertise to my friends for an event such as this. Thanks again!</p>
+      </figure>
+    </div>
+    <div class="swiper-pagination "></div>
+  </div>
+       </section>
+       <div class="col-12 container-fluid  d-flex justify-content-center align-items-center   topM ">
+        <button class="col-md-2 col-xl-1  btn-outline-dark   " ><a href="#Home">TOP</a></button>
+       </div>
+       <!-- end sec 5 -->
+  <!-- start  CONTACT  -->
+  <section  id="CONTACT" >
+    <div class="container-fluid row  text-center col-12 cn bg-dark text-white mx-0 p-0">
+      <figcaption class="col-12 fig1 mt-5 bg-dark p-0 mx-0">
+        <i class='bx bxs-envelope  text-center fs-1  my-2 '   ><h6 class=" my-1">CONNECT</h6></i>
+        <h4 class="text-center ">SUBSCRIBE TO NEWSLETTER</h4>
+        <input type="email" class="bg-dark my-5 text-center" placeholder="please enter your email" hidefocus="true">
+      </figcaption>
+      <figcaption class=" col-12 fig2   ">
+        <figure>
+          <img src="asset/img/logo.png" alt="">
+        </figure>
+        <p> i'm sajad farhadi <br>
+        Iran - Tehran - phon : +9030731706 
+        </p>
+        <ul class="d-flex justify-content-center align-items-center   fs-3 p-0 ">
+          <li><i class='bx bxl-instagram-alt mx-2'></i></li>
+          <li><i class='bx bxl-linkedin-square mx-2' style='color:#f7f2f2' ></i></li>
+          <li><i class='bx bxl-github mx-2' style='color:#f7f2f2' ></i></li>
+          <li><i class='bx bxl-pinterest mx-2'></i></li>
+        </ul>
+      </figcaption>
+    </div>
+    <footer class="  container-fluid  text-center d-flex justify-content-center
+    align-items-center ">
+    <p >FLYCOFFEE - HTML TEMPLATE & js & Scss © MADE BY SAJAD FARHADI</p>
+  </footer>
+  </section>
+    <!-- END  CONTACT  -->
+</main>
+
+<script src="asset/js/master.js"></script>
+</body>
+<script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js">
+</script>
+<!-- Swiper --> 
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script>
+     var swiper = new Swiper(".mySwiper", {
+          speed: 600,
+           parallax: true,
+           pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+            renderBullet: function (index, className) {
+          return '<span class="' + className + '">'  + "</span>";
+        }
+         },
+      autoplay: {
+        delay: 6000,
+        disableOnInteraction: false,
+      },
+  });
+</script>
+<script>
+  var swiper = new Swiper(".slider", {
+    watchSlidesProgress: true,
+    grabCursor: true,
+    slidesPerView: "auto",
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+      loop:true,
+  });
+  var swiper = new Swiper(".cont", {
+      spaceBetween: 30,
+      effect: "fade",
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+</script>
+</html>
